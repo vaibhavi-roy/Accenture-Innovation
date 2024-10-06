@@ -21,7 +21,7 @@ const EnergyTrading = () => {
 
     const handleTrade = () => {
         if (availableEnergy > 0) {
-            alert(`Successfully traded ${availableEnergy} kWh!`);
+            // alert(`Successfully traded ${availableEnergy} kWh!`);
             setAvailableEnergy(0);
             setShowMarketplace(true); // Show marketplace after trade
         } else {
